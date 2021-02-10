@@ -15,5 +15,13 @@ function backgroundButton() {
 
 // when the button, make the date appear, is clicked, the html calls the function, time, from the javascript and the date appears
 function time() {
-  document.getElementById("appear").innerHTML=Date()
+  document.getElementById("appear").innerHTML = Date()
+}
+
+//code for index2.html
+// when the button named change font and more, is clicked, the function is called and the javascript code that is inside the function changes the colour, font and size of the text
+function font() {
+  document.getElementById("text").style.color = 'blue'
+  document.getElementById("text").style.fontFamily = 'cursive,charcoal,sans-serif'
+  document.getElementById("text").style.fontSize = '200%'
 }
